@@ -1,6 +1,7 @@
 # data and config files
 .idea
 .data
+.env
 
 # python cache
 *.pyc
