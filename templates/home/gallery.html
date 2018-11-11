@@ -1,0 +1,17 @@
+{% extends "base/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/css/gallery.css">
+{% endblock %}
+
+{% block content %}
+    <div>
+        {% for pic in pics %}
+            <div>
+                <div>{{ pic.name }}</div>
+                <img class="picture" src="{{ pic.url }}">
+                <div>{{ pic.description }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
