@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  text-align: left;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-image: url(https://sun1-8.userapi.com/c846321/v846321514/107c40/B9XEBnp0JTI.jpg);
+  background-position: left;
+  z-index: 10;
+}
+
+h3 {
+  color: #f8f8f8;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 20px;
+  opacity: 0.7;
+  padding: 10px;
+  display: inline-block;
+  z-index: 10;
+}
+

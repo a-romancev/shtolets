@@ -1,0 +1,22 @@
+
+.hello {
+    font-family: Jamrul;
+    font-size: 40px;
+    left: 0;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.speech {
+    font-size: 20px;
+    position: center;
+    padding: 100px;
+    height: 700px;
+    opacity: 0.9;
+    z-index: 1;
+    width: 50%;
+}
+.content {
+    background-image: url(https://wallpapercave.com/wp/wp1923711.jpg);
+    position: center;
+}
