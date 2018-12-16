@@ -10,7 +10,7 @@ header {
   z-index: 10;
 }
 
-h3 {
+.button {
   color: #f8f8f8;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
