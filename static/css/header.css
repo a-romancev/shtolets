@@ -12,7 +12,7 @@ header {
 
 .button {
   color: #f8f8f8;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald , sans-serif;
   font-size: 18px;
   text-align: center;
   text-transform: uppercase;
@@ -23,6 +23,20 @@ header {
   display: inline-block;
   z-index: 10;
 }
+.button_left {
+  color: #f8f8f8;
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+  opacity: 0.8;
+  padding: 10px;
+  display: inline-block;
+  z-index: 10;
+}
+
 
 .full_button {
   color: #003366;
