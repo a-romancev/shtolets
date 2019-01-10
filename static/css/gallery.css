@@ -1,6 +1,18 @@
-
-.picture {
-    width: 300px;
-    height: 300px;
+.page-content{
+  background: #5E5694;
+}
+.content_background{
+  background: url(https://pp.userapi.com/c840421/v840421543/4cdd5/cv8CXAYlHr4.jpg) no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  left: 25%;
 }
 
+
+.picture  {
+  position: relative;
+  z-index: 2;
+  padding: 0% 0% 10% 25%;
+}
