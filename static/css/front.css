@@ -8,7 +8,7 @@
 .speech {
     font-size: 20px;
     position: center;
-    padding: 100px;
+    padding: 10%;
     opacity: 0.9;
     width: 50%;
 }
@@ -16,7 +16,7 @@
 
 }
 
-.content_picture {
+.content_background {
     background-image: url(https://wallpapercave.com/wp/wp1923711.jpg);
     height: 100%;
     width: 100%;

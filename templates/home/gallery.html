@@ -5,12 +5,13 @@
 {% endblock %}
 
 {% block content %}
-    <div>
+    <div class="page-content">
+        <div class="content_background"></div>
         {% for pic in pics %}
             <div>
-                <div>{{ pic.name }}</div>
-                <img class="picture" src="{{ pic.url }}">
-                <div>{{ pic.description }}</div>
+               <!-- <div>{{ pic.name }}</div>-->
+                    <img class="picture" src="{{ pic.url }}"></a>
+               <!-- <div>{{ pic.description }}</div>-->
             </div>
         {% endfor %}
     </div>
