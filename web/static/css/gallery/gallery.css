@@ -1,0 +1,12 @@
+.page-content{
+  background: #5E5694;
+}
+
+.preview:hover{
+  transform: scale(1.02);
+
+}
+
+.preview:not(.fake):not(.fake){
+  transition: transform 0.2s, opacity 0.5s;
+}
