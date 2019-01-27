@@ -1,23 +1,22 @@
 {% extends "base/base.html" %}
 
 {% block head %}
-    <link rel="stylesheet" type="text/css" href="/static/css/gallery.css">
-    <script src="/static/js/gallery.js"></script>
+    <script src="/static/js/gallery/gallery.js"></script>
+    <script src="/static/js/gallery/justified-gallery.js"></script>
+    <script src="/static/js/gallery/magnific-popup.js"></script>
+    <link rel="stylesheet" href="/static/css/gallery/justified-gallery.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/gallery/gallery.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/gallery/magnific-popup.css">
 {% endblock %}
 
 {% block content %}
     <div class="page-content">
-        <div class="left-panel">
+        <div class="justified-gallery">
             {% for pic in pics %}
-                <div class="preview js-preview" data-fullsize-url="{{ pic.url }}">
-                    <img class="preview__img" src="{{ pic.preview_url }}">
-                </div>
+                <a href="{{ pic.url }}">
+                    <img class="preview" alt="caption for image 1" src="{{ pic.preview_url }}"/>
+                </a>
             {% endfor %}
-        </div>
-        <div class="main-container">
-            <div class="picture">
-                <img class="picture__img js-fullsize-img">
-            </div>
         </div>
     </div>
 {% endblock %}
