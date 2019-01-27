@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    build: web
+    volumes:
+      - ./web:/var/app
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./web/static:/etc/nginx/bundle/static
+      - ./web/.data/media:/etc/nginx/bundle/media
+    ports:
+      - 8080:80
