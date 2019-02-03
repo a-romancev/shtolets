@@ -1,8 +1,8 @@
 footer {
   background-color: #FCF9F9;
-  font-family: Josefin Sans;
+  font-family: Josefin Sans, sans-serif;
   text-align: center;
-  height: 60px;
+  flex: 0 0 60px;
 }
 
 .email{

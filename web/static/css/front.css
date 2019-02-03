@@ -13,14 +13,13 @@
     font-size: 20px;
 }
 
-.content_block {
+.content-block {
     width: 700px;
     display: inline-block;
 }
 
-.content_background {
+.front-container {
     background-color: #FCF9F9;
-    height: 900px;
     width: 100%;
     text-align: center;
 }
