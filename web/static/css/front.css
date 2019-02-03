@@ -9,6 +9,7 @@
 }
 
 .speech {
+    margin-top: 50px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
@@ -22,4 +23,8 @@
     background-color: #FCF9F9;
     width: 100%;
     text-align: center;
+}
+
+.about-image {
+    width: 200px;
 }
