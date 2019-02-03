@@ -1,0 +1,10 @@
+footer {
+  background-color: #FCF9F9;
+  font-family: Josefin Sans, sans-serif;
+  text-align: center;
+  flex: 0 0 60px;
+}
+
+.email{
+  font-size: 20px;
+}

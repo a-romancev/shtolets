@@ -1,5 +1,9 @@
 FROM python:3.6
 
+RUN apt-get update \
+ && apt-get install -y postgresql \
+ && apt-get clean
+
 WORKDIR /var/app
 
 COPY requirements.txt .

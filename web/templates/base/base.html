@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Shtolets</title>
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     {% block head %}
     {% endblock %}
@@ -13,9 +12,15 @@
     <header>
         {% include "base/header.html" %}
     </header>
+
 <div class="page-content">
-{% block content %}
-{% endblock %}
+    {% block content %}
+    {% endblock %}
 </div>
+
+    <footer>
+        {% include "base/footer.html" %}
+    </footer>
+
 </body>
 </html>

@@ -1,24 +1,25 @@
 
 .hello {
-    font-family: Jamrul;
-    font-size: 40px;
-    opacity: 0.9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+
 }
 
 .speech {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    position: center;
-    padding: 10%;
-    opacity: 0.9;
-    width: 50%;
-}
-.content {
-
 }
 
-.content_background {
-    background-image: url(https://wallpapercave.com/wp/wp1923711.jpg);
-    height: 100%;
+.content-block {
+    width: 700px;
+    display: inline-block;
+}
+
+.front-container {
+    background-color: #FCF9F9;
     width: 100%;
-    position: absolute;
+    text-align: center;
 }

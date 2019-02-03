@@ -9,8 +9,8 @@ class Picture(models.Model):
 
     @property
     def url(self):
-        return '/' + self.image.url
+        return self.image.url
 
     @property
     def preview_url(self):
-        return '/' + self.preview.url
+        return self.preview.url
