@@ -14,7 +14,7 @@
         <div class="justified-gallery">
             {% for pic in pics %}
                 <a href="{{ pic.url }}">
-                    <img class="preview" alt="caption for image 1" src="{{ pic.preview_url }}"/>
+                    <img class="preview" alt="{{ pic.name }}" src="{{ pic.preview_url }}"/>
                 </a>
             {% endfor %}
         </div>
