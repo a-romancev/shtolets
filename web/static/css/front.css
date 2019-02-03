@@ -2,7 +2,6 @@
 .hello {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
-    opacity: 0.9;
     text-align: center;
     text-transform: uppercase;
     padding: 50px;
@@ -12,18 +11,16 @@
 .speech {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    opacity: 0.9;
-    text-align: center;
 }
 
 .content_block {
-    width: 50%;
-    padding-left: 25%;
+    width: 700px;
+    display: inline-block;
 }
 
 .content_background {
     background-color: #FCF9F9;
     height: 900px;
     width: 100%;
-    z-index: 0;
+    text-align: center;
 }

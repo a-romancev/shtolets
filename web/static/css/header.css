@@ -10,31 +10,22 @@ header {
   z-index: 10;
 }
 
-.button {
+.header-item {
   color: #393D47;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
   font-size: 30px;
   text-decoration: none;
-  margin: 35px;
+  margin-left: 40px;
   display: inline-block;
   transition: 0.2s;
+  line-height: 100px;
 }
 
-.button:hover{
-color: red;
+.header-item:hover{
+  color: red;
 }
 
-.button_left {
-  color: #393D47;
+.social-links {
+  padding-right: 40px;
   float: right;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
-  text-decoration: none;
-  margin: 30px;
-  display: inline-block;
-  transition: 0.2s;
-}
-.button_left:hover{
-color: red;
 }
