@@ -27,4 +27,5 @@ header {
 .social-links {
   padding-right: 40px;
   float: right;
+  display: block;
 }

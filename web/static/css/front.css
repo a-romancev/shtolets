@@ -9,7 +9,7 @@
 }
 
 .speech {
-    margin-top: 50px;
+    margin: 50px 0px 200px 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
@@ -17,6 +17,7 @@
 .content-block {
     width: 700px;
     display: inline-block;
+    text-align: center;
 }
 
 .front-container {
